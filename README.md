@@ -1,5 +1,5 @@
 # myPro
-使用react、react-router按需加载、webpack、node热加载做的简单博客
+使用react、react-router、webpack、node热加载做的简单博客
 
 #### Install
 
@@ -15,6 +15,11 @@ webpack
 node server.js
 ```
 
+####项目信息
+1.使用reactjs作为js框架，使用antdesign最为UI库
+2.使用了react-route处理单页应用
+3.打包工具使用的webpack
+4.开发模式，可以打开node热加载，边改代码实时显示在页面上
 
 
 
