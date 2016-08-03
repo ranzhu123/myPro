@@ -1,0 +1,9 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  overflow: hidden;
+}
+#root_page{
+  height:100%;
+}

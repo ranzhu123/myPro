@@ -1,0 +1,8 @@
+.BreadCrumb{
+  margin:10px 20px;
+}
+
+.BreadCrumb :global(.ant-breadcrumb a){
+  color: #2db7f5;
+  font-size: 14px;
+}

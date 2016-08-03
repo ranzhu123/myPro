@@ -1,0 +1,18 @@
+.header{
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+  border-bottom: 1px solid #c1c1c1;
+  color: #54A4E8;
+}
+
+.name>span i{
+  margin-right: 8px;
+}
+
+.name>span{
+  cursor: pointer;
+}
