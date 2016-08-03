@@ -10,7 +10,7 @@ git clone https://github.com/ranzhu123/myPro.git
 #### 使用说明
 
 ```
-cd mewDoit
+cd newDoit
 webpack
 node server.js
 ```
