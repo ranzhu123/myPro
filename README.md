@@ -4,10 +4,16 @@
 #### Install
 
 ```
-$ npm i -S @myPro
+git clone https://github.com/ranzhu123/myPro.git
 ```
 
-#### Example
+#### 使用说明
+
+```
+cd mewDoit
+webpack
+node server.js
+```
 
 
 
