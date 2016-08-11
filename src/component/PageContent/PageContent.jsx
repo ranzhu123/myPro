@@ -23,8 +23,8 @@ class PageContent extends React.Component{
   }
 
   getAllRoutes=()=>{
-    routes.shift();
-    return routes.map((route)=>{
+    let content = routes.slice(1);//排除掉系统首页这一栏
+    return content.map((route)=>{
       let routeContent = (route.children).map((itemRoute)=>{
         return <div className={styles['itemRoute']}><Link to={itemRoute.path||"/under-construction"}>{itemRoute.header}</Link></div>
       });
